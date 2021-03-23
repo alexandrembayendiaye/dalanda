@@ -1,0 +1,188 @@
+
+#entete {
+background-image: url("A.gif");
+padding : 2px;
+height : 30%;
+width :100%;
+}
+
+
+nav{
+width: 1250px;
+background-color: grey;
+margin-left: 50px;
+}
+
+#navigation, #navigation ul{
+	padding:3px;
+	list-style:none;
+	text-align:center;
+}
+
+.ab1
+{
+	border: groove black;
+	background-color:grey;
+	border-radius: 15px;
+	margin-left : 15px;
+}
+
+#navigation  a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:pink;
+font-family:broadway;
+
+text-transform: uppercase;
+
+}
+
+#navigation li{
+display:inline-block;
+border-radius:7px;
+text-transform: uppercase;
+
+}
+
+#navigation  a:hover {
+color:black;
+cursor: pointer;
+text-transform: lowercase;
+}
+#menuGauche {
+float:right;
+width:240px;
+height : 100%;
+background-color:pink;
+border-radius: 20px;
+}
+
+#menuGauche:first-child{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#menuGauche img{
+	width: 70%;
+}
+
+#menu  {
+float:left;
+width:230px;
+border-radius: 20px;
+background-image: url("pub.JFIF") ;
+height: 100%;
+background-color:pink;
+cursor: pointer;
+}
+
+#menu1 {
+	float:left;
+	width:240px;
+	margin-top : 409px;
+    height :250px;
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+#table {
+	font-family : algerian ;
+	letter-spacing: 0.2em;
+	width: 100%;
+	border-radius: 14px;
+	background-color:pink;
+	height:50%;
+}
+
+
+#table tr:hover{
+	background-color: grey;
+}
+
+#table td{
+	border-bottom: 2px grey;
+
+
+}
+
+#table:first-child{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 75px;
+}
+
+#contenu {
+margin-left:245px;
+
+background-color:orange;
+height : 170%;
+border-radius: 20px;
+margin-right:245px;
+}
+
+pre{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Times New Roman;
+	padding: 19px;
+	color: white;
+}
+
+legend{
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	background-color: white;
+	width: 50%;
+	margin-left: 20%;
+	border-radius: 10px;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+}
+
+ .champ{
+	border-radius:10px;
+	box-shadow:2px  black;
+	font-size: 20px;
+	padding: 5px;
+ }
+
+label,input{
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	text-shadow: 1px 1px white;
+}
+
+input[type=submit] {
+ width:20%;
+ padding: 5px;
+ margin-left:110px;
+ box-shadow:1px 2px pink;
+  background-color:black;
+ 	border-radius:10px;
+ 	letter-spacing: 0.1em;
+
+ }
+input[type=submit]:hover{
+	cursor: default;
+	opacity: 0.4;
+}
+#footer {																			
+background-color: pink;
+text-align: center;
+height: 20%;
+margin: 5px;
+border-radius: 15px;
+font-family: algerian;
+font-weight: 0.3em;
+font-size: 20px;
+color: grey;
+
+}
